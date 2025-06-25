@@ -56,6 +56,12 @@ It is currently maintained by a team of volunteers.
 
 Website: https://scikit-learn.org
 
+.. code-block:: python
+
+   from sklearn.linear_model import LogisticRegression
+   model = LogisticRegression().fit([[0,0], [1,1]], [0,1])
+   prediction = model.predict([[2,2]])
+
 Installation
 ------------
 
